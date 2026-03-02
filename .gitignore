@@ -1,0 +1,28 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+python-service/venv/
+
+# =====================
+# Node (if frontend later)
+# =====================
+node_modules/
+dist/
+
+# =====================
+# Java / Spring Boot
+# =====================
+target/
+*.log
+.mvn/
+
+# =====================
+# OS Files
+# =====================
+.DS_Store
+Thumbs.db
