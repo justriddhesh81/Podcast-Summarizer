@@ -8,12 +8,12 @@ from summarizer import summarize_text, AVAILABLE_MODELS
 
 app = FastAPI()
 
-# Load Whisper once
+
 whisper_model = whisper.load_model("base")
 
 
 def download_audio(video_id):
-    # Remove timestamp if present
+    
     if "&" in video_id:
         video_id = video_id.split("&")[0]
 
